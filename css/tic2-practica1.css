@@ -1,3 +1,21 @@
-.Times {
-    font-family: "Times New Roman", Times, serif;
+.h1, h2, h3, h4 {
+    font-family: "Courier New", monospace;
+  }
+.div, ul, li {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  .monospace {
+    font-family: monospace;
+  font-size: 20px;
+  }
+
+  .titulo {
+    color: rgb(168, 8, 134);
+  text-align: left
+  }
+
+  .table {
+    border: 2px solid #ffa0ea;
+    padding: 1rem;
   }
