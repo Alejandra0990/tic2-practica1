@@ -1,21 +1,40 @@
-.h1, h2, h3, h4 {
-    font-family: "Courier New", monospace;
-  }
-.div, ul, li {
-    font-family: "Lucida Console", "Courier New", monospace;
-  }
-
-  .monospace {
-    font-family: monospace;
-  font-size: 20px;
-  }
-
-  .titulo {
-    color: rgb(168, 8, 134);
+ .h1, h2, h3, h4, h5, h1 {
+    color: rgb(44, 163, 203);
   text-align: left
   }
 
+  .p  {
+    margin-left: 80px;
+  }
+  
+  
+  
+  .div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+  
+  p.menu {
+  border-style: dashed;
+  }
   .table {
-    border: 2px solid #ffa0ea;
-    padding: 1rem;
+     border-style: dotted;
+  border-width: thick;
+  border-color: rgb(135, 213, 225);
+  }
+  
+  .p, h1, h2, h3, h4, h5, table, div, ul, li, p, button {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+  }
+
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+  }
+
+  .centro {
+    text-align: center;
   }
